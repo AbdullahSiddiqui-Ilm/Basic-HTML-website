@@ -12,14 +12,15 @@
     <meta name="robots" content="index, nofollow" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="language" content="English" />
+    <link rel="stylesheet" href="style.css" />
 
     <title>HTML basics</title>
   </head>
   <body>
     <header>
       <nav>
-        <a href="index.html">Abdullah Siddiqui</a>
-        <ul>
+        <a href="index.html" class="logo">Abdullah Siddiqui</a>
+        <ul class="right-nav">
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About us</a></li>
           <li><a href="contactus.html">Contact us</a></li>
@@ -28,7 +29,7 @@
       <h1>Frontend Developer</h1>
     </header>
 
-    <main>
+    <main class="main-content">
       <section>
         <h2>Projects</h2>
         <ul>
@@ -40,7 +41,7 @@
         </ul>
       </section>
 
-      <section>
+      <section class="middle-section-split">
         <section>
           <h2>Work Experience</h2>
           <p>3 month work experience at Microsoft</p>
@@ -62,7 +63,7 @@
           sessions
         </p>
         <p>Courses i took:</p>
-        <ol>
+        <ul>
           <li>Object Oriented programming</li>
           <li>Data structures and algorithms</li>
           <li>Web Engineering</li>
@@ -72,29 +73,31 @@
           <li>Database management systems</li>
           <li>Distributed Database systems</li>
           <li>Discrete mathematics</li>
-        </ol>
+        </ul>
       </section>
     </main>
 
     <footer>
-      <h2>Reviews from my teachers</h2>
-      <div>
-        <p>
-          John doe was a brilliant student; always stood out with his
-          assignments
-        </p>
-      </div>
-      <div>
-        <p>
-          John doe was a brilliant student; always stood out with his
-          assignments
-        </p>
-      </div>
-      <div>
-        <p>
-          John doe was a brilliant student; always stood out with his
-          assignments
-        </p>
+      <h2 id="footer-header">Reviews from my teachers</h2>
+      <div class="footer-content">
+        <div>
+          <p>
+            John doe was a brilliant student; always stood out with his
+            assignments
+          </p>
+        </div>
+        <div>
+          <p>
+            John doe was a brilliant student; always stood out with his
+            assignments
+          </p>
+        </div>
+        <div>
+          <p>
+            John doe was a brilliant student; always stood out with his
+            assignments
+          </p>
+        </div>
       </div>
     </footer>
   </body>
