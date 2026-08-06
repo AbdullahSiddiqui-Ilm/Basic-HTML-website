@@ -1,11 +1,10 @@
 * {
   box-sizing: border-box;
-  font-family: "Inter", sans-serif;
   margin: 0;
   padding: 0;
 }
 
-#main-header-container {
+.main-header-container {
   display: flex;
   flex-direction: column;
   height: 150px;
@@ -16,8 +15,15 @@
   font-family: "Fredoka", sans-serif;
 }
 
+h1 {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
 nav {
   display: flex;
+  background-color: #1b263b;
+  color: antiquewhite;
 }
 
 header {
@@ -33,6 +39,7 @@ main {
 
 footer {
   border: 2px solid black;
+  height: 300px;
 }
 
 .right-nav {
@@ -41,11 +48,13 @@ footer {
   list-style-type: none;
   gap: 70px;
   margin-right: 60px;
+  font-family: "Inter", sans-serif;
 }
 
 .logo {
   margin-top: 10px;
   margin-left: 20px;
+  margin-bottom: 5px;
   margin-right: auto;
   font-family: "Bungee", sans-serif;
 }
@@ -68,14 +77,19 @@ section {
   flex: 1;
 }
 
+footer {
+  height: auto;
+}
 .footer-content {
+  height: 300px;
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 20px;
   padding-bottom: 20px;
 }
 
-.footer-header {
+#footer-header {
   text-align: center;
 }
 
@@ -84,4 +98,13 @@ section {
   border: 1px solid black;
   padding: 10px 30px;
   border-radius: 15px;
+}
+
+a:hover {
+  color: #949494;
+}
+
+main,
+footer {
+  background-color: antiquewhite;
 }
