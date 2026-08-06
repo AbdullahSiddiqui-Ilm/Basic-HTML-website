@@ -1,10 +1,19 @@
 * {
   box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-h1 {
-  text-align: center;
-  padding-bottom: 2rem;
+#main-header-container {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  align-items: center;
+  justify-content: center;
+  background-color: antiquewhite;
+  border-top: 1px solid black;
+  font-family: "Fredoka", sans-serif;
 }
 
 nav {
@@ -28,13 +37,17 @@ footer {
 
 .right-nav {
   display: flex;
+  align-items: center;
   list-style-type: none;
-  gap: 30px;
+  gap: 70px;
+  margin-right: 60px;
 }
 
 .logo {
-  margin-left: 0;
+  margin-top: 10px;
+  margin-left: 20px;
   margin-right: auto;
+  font-family: "Bungee", sans-serif;
 }
 
 a {
