@@ -67,7 +67,6 @@ main {
   border-top: 2px solid black;
   border-right: 2px solid black;
   border-left: 2px solid black;
-  padding: 32px 0;
   color: #1b263b;
 }
 
@@ -78,6 +77,21 @@ main {
 .middle-section-split {
   display: flex;
   flex-direction: column;
+  border-left: 2px solid #1b263b;
+  border-right: 2px solid #1b263b;
+}
+
+#top-section {
+  border-bottom: 1px solid #1b263b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#bottom-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .main-content li {
@@ -85,8 +99,19 @@ main {
 }
 
 section {
+  padding: 20px 0;
   flex: 1;
   text-align: center;
+}
+
+#left-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#left-section li {
+  padding: 15px;
 }
 
 main,
