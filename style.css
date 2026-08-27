@@ -149,3 +149,14 @@ footer {
   padding: 10px 30px;
   border-radius: 15px;
 }
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 600px) {
+  main {
+    flex-direction: column;
+  }
+}
